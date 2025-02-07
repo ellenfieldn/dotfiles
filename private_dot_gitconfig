@@ -1,0 +1,11 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Nathan Ellenfield
+	email = nathan.ellenfield@gmail.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIP3ih8EcyF3U9GMnhJ/MPJMkauan/rbbl+qCMjjEOEJM
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /opt/1Password/op-ssh-sign
+[commit]
+	gpgsign = true
